@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>数独</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <!-- 标题 -->
+    <div class="title">
+        <h1>数独游戏 - 罗高94五班</h1>
+    </div>
+
+    <!-- 九宫格 -->
+    <div id="container" class="container grid">
+    </div>
+
+    <!-- 按钮 -->
+    <div id="dashboard" class="dashboard">
+        <div class="buttons">
+            <button id="check" type="button">检查</button>
+            <button id="reset" type="button">重来</button>
+            <button id="clear" type="button">清理</button>
+            <button id="rebuild" type="button">重建</button>
+        </div>
+    </div>
+
+    <!-- 弹出窗口 -->
+    <div id="popupNumbers" class="grid popup-num hidden"></div>
+
+    <script src="http://code.jquery.com/jquery-3.1.1.js" charset="utf-8"></script>
+    <script src="js/index.js" charset="utf-8"></script>
+</body>
+</html>
